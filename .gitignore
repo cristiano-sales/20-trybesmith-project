@@ -103,4 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-recurringCommands.txt
+01-recurringCommands.txt
+02-learning.txt
