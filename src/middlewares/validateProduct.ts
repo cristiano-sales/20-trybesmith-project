@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import HttpError from '../utils/http.error';
+import HttpError from '../utils/httpError.utils';
 
 export async function validateName(req: Request, _res: Response, next: NextFunction) {
   const { name } = req.body;
